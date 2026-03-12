@@ -1,6 +1,28 @@
 # JOURNAL
 
 **New Interaction**
+**Date**: 03-12-2026 17:31
+**User**: Admin
+**Prompt**: "Log this user interaction: User asked to update copilot instructions.agent.md from previous chats suggestions."
+**CoPilot Mode**: Agent
+**CoPilot Model**: GPT-5.3-Codex
+**Changes Made**: Prepended this journal entry in `JOURNAL.md` to record the user's request about updating `.github/copilot-instructions.agent.md` based on prior chat suggestions.
+**Reasons for Changes**: To satisfy journal-logger mode requirements by logging each prompt in reverse-chronological order.
+**Context**: Workspace is `d:\EPITA S2\AI4SE\projects\lab4-word-game` on Windows; this interaction focused on logging the request, and no additional project files were modified in this step.
+**My Observations**:
+
+**New Interaction**
+**Date**: 03-12-2026 17:26
+**User**: Admin
+**Prompt**: "can you update or create the file if i don't .github/copilot-instructions.agent.md"
+**CoPilot Mode**: Agent
+**CoPilot Model**: GPT-5.3-Codex
+**Changes Made**: Prepended this journal entry in `JOURNAL.md` to log the user's request for handling `.github/copilot-instructions.agent.md` when missing.
+**Reasons for Changes**: To maintain the required reverse-chronological interaction log after every prompt in journal-logger mode.
+**Context**: Date context is March 12, 2026; workspace is `d:\EPITA S2\AI4SE\projects\lab4-word-game` on Windows. This interaction was logged as requested.
+**My Observations**:
+
+**New Interaction**
 **Date**: 03-12-2026 00:00
 **User**: Admin
 **Prompt**: "Update the journal: Created README.md with run instructions and filled REPORT.md with final project reflections."
