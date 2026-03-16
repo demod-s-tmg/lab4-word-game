@@ -125,3 +125,12 @@ Defensive checks to prevent these bugs:
 - Use a single `process_guess()` path that updates state in one place.
 - Run invariant assertions after every guess during development/tests.
 - Add tests for edge cases: repeated guesses, repeated letters, last-attempt win/loss, invalid inputs, restart behavior.
+
+## Auto-Play Design:
+
+Design Decision: Create an auto game loop that mimics the standard game loop but picks a random letter from the alphabet excluding guessed letters.
+
+Constraint: Use recursion to continue the computer's guesses until a win or loss is reached.
+
+Question: How to ensure the computer doesn't pick the same letter twice?
+Solution: Subtract guessed letters from a string/list of all possible letters.
